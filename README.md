@@ -23,7 +23,6 @@ The data used in this project is sourced from Kaggle:
 
 ```bash
 git clone https://github.com/MokipoCode/tmp_projet.git
-cd tmp_projet
 pip install -r requirements.txt
 ```
 
@@ -36,11 +35,11 @@ python src/main.py
 ## To-Do List
 
 1. **Data Fetching**
-   - [ ] Find a data source
-   - [ ] Get the data
+   - ✔️ Find a data source
+   - ✔️ Get the data
 
 2. **Data Exploration**
-   - [ ] Write `data_explo.ipynb` to explore the data.
+   - [`ongoing`] Write [data_explo.ipynb](notebooks\data_explo.ipynb) to explore the data.
 
 3. **Data Cleaning**
    - [ ] Clean data in order to use in models
