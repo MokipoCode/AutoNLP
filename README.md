@@ -4,6 +4,12 @@ This project serves as a portfolio to showcase what I know/like to do
 ## Project Structure
 TBD
 
+## Data Source
+
+The data used in this project is sourced from Kaggle:
+
+- **Used Car Dataset**: [Kaggle - Vehicles listings from Craigslist.org from Austin Reese](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+
 ## Features
 
 - **Data Fetching**: Fetch data from APIs or databases.
