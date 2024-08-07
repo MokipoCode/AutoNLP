@@ -39,16 +39,16 @@ python src/main.py
    - ✔️ Get the data
 
 2. **Data Exploration**
-   - [`ongoing`] Write [data_explo.ipynb](notebooks\data_explo.ipynb) to explore the data
+   - ✔️ Write [data_explo notebook](notebooks\data_explo.ipynb) to explore the data
       - [`ongoing`] Explore the data
       - ✔️ Find some interesting questions to answer
-      - [ ] Write functions to correct/delete unwanted data
+      - ✔️ Write functions to correct/delete unwanted data
 
 3. **Data Cleaning**
-   - [ ] Write data cleaning script in order to use in models
+   - ✔️ Write [data_processing script](src\data_processing.py)
 
 4. **Data Visualization**
-   - [ ] Some visualizations to illustrate the cleaned data based on questions found in [data_explo.ipynb](notebooks\data_explo.ipynb) last chapter
+   - [`next step`] Some visualizations to illustrate the cleaned data in [data_visu notebook](notebooks\data_visu.ipynb)
       - [ ] Basic questions and charts
       - [ ] Correlations, heatmap and map(s)!
       - [ ] NLP exploration/visualization
