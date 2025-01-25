@@ -2,3 +2,7 @@ requests
 kaggle
 ipykernel
 pandas
+jupyter
+matplotlib
+seaborn
+squarify

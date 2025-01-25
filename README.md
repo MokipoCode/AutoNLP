@@ -40,7 +40,7 @@ python src/main.py
 
 2. **Data Exploration**
    - ✔️ Write [data_explo notebook](notebooks\data_explo.ipynb) to explore the data
-      - [`ongoing`] Explore the data
+      - `ongoing` Explore the data
       - ✔️ Find some interesting questions to answer
       - ✔️ Write functions to correct/delete unwanted data
 
@@ -48,8 +48,8 @@ python src/main.py
    - ✔️ Write [data_processing script](src\data_processing.py)
 
 4. **Data Visualization**
-   - [`next step`] Some visualizations to illustrate the cleaned data in [data_visu notebook](notebooks\data_visu.ipynb)
-      - [ ] Basic questions and charts
+   - `next step` Some visualizations to illustrate the cleaned data in [data_visu notebook](notebooks\data_visu.ipynb)
+      - ✔️ Basic questions and charts
       - [ ] Correlations, heatmap and map(s)!
       - [ ] NLP exploration/visualization
 
@@ -60,20 +60,5 @@ python src/main.py
 8. **Documentation**
    - [ ] Create detailed documentation in the `docs/` directory.
    - [ ] Document the overall project structure and usage.
-
-<!-- ## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-``` -->
-
-### Prochaines Étapes
-
-1. **TBD** : TBD
-2. **TBD** : TBD
-
 
 <!-- Note: venv_project\Scripts\activate -->
