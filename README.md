@@ -23,14 +23,16 @@ The data used in this project is sourced from Kaggle:
 
 ```bash
 git clone https://github.com/MokipoCode/tmp_projet.git
+python -m venv [yourvenvname]
+activate venv 
 pip install -r requirements.txt
 ```
 
+
 ## Usage
-TBD
-<!-- ```bash
-python src/main.py
-``` -->
+- Download to [data folder](data/) the file from the [dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) or use [data_fetching](src/data_fetching.py)
+- Use [data_processing](src/data_processing.py)
+
 
 ## To-Do List
 
@@ -50,7 +52,7 @@ python src/main.py
 4. **Data Visualization**
    - `next step` Some visualizations to illustrate the cleaned data in [data_visu notebook](notebooks\data_visu.ipynb)
       - ✔️ Basic questions and charts
-      - [ ] Correlations, heatmap and map(s)!
+      - ✔️ Correlations
       - [ ] NLP exploration/visualization
 
 6. **Conversational Assistant**

@@ -6,6 +6,7 @@ def clean_data(df) :
     df = df.drop(columns=['county', "url", "image_url", "VIN"])
     df = df.dropna(subset=['manufacturer', 'title_status', "lat", 'long', 'model', 'odometer', 'fuel', 'transmission', 'year', 'id', 'region_url', 'region', 'price', 'description', 'state', 'posting_date'])
     df['year'] = pd.to_numeric(df['year'], errors="coerce").astype('Int64')
+    df = df[df['year'] < 2022] #not enough data as revealed by data exploration
     df['odometer'] = pd.to_numeric(df['odometer'], errors="coerce").astype('Int64')
     df['posting_date'] = pd.to_datetime(df['posting_date'], errors='coerce', utc=True)
     df['posting_date'] = pd.to_datetime(df['posting_date'], errors='coerce')
@@ -14,6 +15,7 @@ def clean_data(df) :
     df['post_year'] = df['posting_date'].dt.year.astype('Int64')
     return df
 
+logging.info("Reading file...") 
 df = pd.read_csv('data/vehicles.csv', encoding="utf-8")
 
 total_rows = df.shape[0]
