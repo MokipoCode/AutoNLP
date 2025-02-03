@@ -6,3 +6,6 @@ jupyter
 matplotlib
 seaborn
 squarify
+transformers
+pytorch
+accelerate>=0.26.0

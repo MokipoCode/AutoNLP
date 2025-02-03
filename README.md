@@ -53,7 +53,7 @@ pip install -r requirements.txt
    - `next step` Some visualizations to illustrate the cleaned data in [data_visu notebook](notebooks\data_visu.ipynb)
       - ✔️ Basic questions and charts
       - ✔️ Correlations
-      - [ ] NLP exploration/visualization
+      - [ ] NER exploration (available in [NER notebook](notebooks\NER.ipynb))
 
 6. **Conversational Assistant**
    - [ ] Think about how to create it
